@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Manual CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Class 21</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand text-primary" href="#">LFWF Academy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Slider Section -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/landscape.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/lake.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/landscape.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- About Section -->
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-md-4">
+                <img src="img/Portrait-of-smiling-handsome-man-in-blue-t-shirt-standing-with-crossed-arms-isolated-on-grey-backgro.jpg" alt="" class="img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h3>Blockquote</h3>
+                <figure>
+                    <blockquote class="blockquote">
+                      <p class="fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam eos minus nemo obcaecati, harum ipsam reiciendis dolorum exercitationem minima voluptatibus officiis quis deleniti excepturi inventore molestiae ullam omnis, suscipit quasi.</p>
+                      <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor odit nihil minima recusandae delectus numquam culpa saepe unde natus! Ipsa rerum iste sapiente eius voluptatem, qui repellat quasi dolorem!</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer"> <cite title="Source Title">LFWF Academy</cite>
+                    </figcaption>
+                  </figure>
+            </div>
+        </div>
+    </div>
+    <hr>
+ <div class="table-section bg-light py-md-3">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <h3 class="text-success">
+                Bootstrap 5 table
+            </h3>
+            <table class="table table-striped text-center border table-hover">                
+                <tr class="table-dark border ">
+                    <td class="border">No.</td>
+                    <td class="border">Name</td>
+                    <td class="border">Class</td>
+                    <td class="border">Roll</td>
+                    <td class="border">Section</td>
+                    <td class="border">Address</td>
+                    <td class="border">Contact</td>
+                </tr>
+
+                <tr class="">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+                <tr class="table-primary">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+                <tr class="table-danger">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+                <tr class="table-warning">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+                <tr class="table-success">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+                <tr class="table-info">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+                <tr class="table-light">
+                    <td class="border">1</td>
+                    <td class="border">Shohid</td>
+                    <td class="border">ten</td>
+                    <td class="border">15</td>
+                    <td class="border">A</td>
+                    <td class="border">Dhaka</td>
+                    <td class="border">+880101010010</td>
+                </tr>
+              </table>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Launch static backdrop modal
+                </button>                    
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt odio quae corrupti officia enim, autem maxime quisquam alias laudantium, dolore odit nam laborum temporibus sapiente. Odit perspiciatis sequi blanditiis!</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>  
+        </div>
+        <div class="col-md-5">
+            <h3 class="text-success">
+                Bootstrap 5 form
+            </h3>
+            <form action="#">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="first-name" class="form-label">First Name</label>
+                        <input type="text" placeholder="First Name" id="first-name" class="form-control">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="last-name" class="form-label">Last Name</label>
+                        <input type="text" placeholder="Last Name" id="last-name" class="form-control">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" placeholder="Email Address" id="email" class="form-control">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <label for="comment" class="form-label">Message</label>
+                        <textarea id="comment" class="form-control"></textarea>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <label for="cv" class="form-label">Chose File</label>
+                        <input type="file" class="form-control">
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Your Country</option>
+                            <option value="country">Bangladesh</option>
+                            <option value="country">India</option>
+                            <option value="country">Pakistan</option>
+                            <option value="country">Nepal</option>
+                          </select>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <label for="cv" class="form-label">Chose Your Course</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="course" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Web Design
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="course" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                              Graphic Design
+                            </label>
+                          </div>
+                          <button type="submit" class="btn btn-lg btn-success mt-3">Submit</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+ </div>
+    <hr>
+    <!-- Bootstrap Card Section -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12">
+                <h1 class="text-center">Bootstrap 5 Card & ProgresBar</h1>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header fs-3 text-center">
+                      This Is Header
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">This is Card Title</h5>
+                      <ul class="list-group list-group">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A third item</li>
+                      </ul>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto atque corporis quia doloribus rerum dolorem magnam molestias. Ipsum, pariatur consequatur?</p>                      
+                        <div class="my-3">
+                            <a href="#" class="card-link">Card Link</a>
+                        <a href="#" class="another-link">Card Link</a>
+                        </div>                      
+                    
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer fs-3 text-center">
+                      This Is Footer
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 class="fs-4">HTML</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%
+                    </div>
+                </div>
+                <h4 class="fs-4">CSS</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%
+                    </div>
+                </div>
+                <h4 class="fs-4">JS</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">00%
+                    </div>
+                </div>
+                <h4 class="fs-4">WordPress</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%
+                    </div>
+                </div>
+                <!-- Block level --> 
+                <h4 class="fs-3 mt-5">Text-truncate Use kore kora hoyeche</h4>              
+                    <div class="text-truncate">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non architecto eius iste dicta officia voluptatibus veniam odit dolor esse iure.
+                    </div>
+                    <div class="alert alert-danger mt-5" role="alert">
+                        A simple warning alert—check it out!
+                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header fs-3 text-center">
+                      This Is Header
+                    </div>
+                    <div class="card-body">
+                        <img src="img/grapefruit-slice-332-332.jpg" alt="" class="img-fluid">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto atque corporis quia doloribus rerum dolorem magnam molestias. Ipsum, pariatur consequatur?</p>                      
+                    </div>
+                    <div class="card-footer fs-3 text-center">
+                      This Is Footer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Streaed Section -->
+    <div class="stretched-section bg-light my-md-2 py-md-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/blog-2.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Card With Streched Link
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim amet odio, consequuntur assumenda officia maxime sunt eaque repudiandae veritatis facere.
+                </p>
+                <a href="#" class="btn btn-primary">Go Somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/blog-3.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Card With Streched Link
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim amet odio, consequuntur assumenda officia maxime sunt eaque repudiandae veritatis facere.
+                </p>
+                <a href="#" class="btn btn-primary">Go Somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/blog-1.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Card With Streched Link
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim amet odio, consequuntur assumenda officia maxime sunt eaque repudiandae veritatis facere.
+                </p>
+                <a href="#" class="btn btn-primary">Go Somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pagination -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 offset-4">
+          <nav aria-label="Page navigation mx-auto">
+            <ul class="pagination mx-auto">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+<!-- Footer Section -->
+<div class="container-fluid bg-dark py-md-2">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-white text-center m-0">&copy; All Reserved By Saiful Islam</p>
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

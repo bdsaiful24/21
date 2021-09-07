@@ -1,0 +1,7 @@
+.carousel img{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption p{
+    padding-bottom: 30%;
+}
